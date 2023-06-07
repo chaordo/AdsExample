@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            BannerAd(unitID: "ca-app-pub-3501980711769625/3136265112")
+                .frame(minHeight: 50, maxHeight: 60)
+                .padding(.top, -300) // Add top padding to push the banner to the top
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
